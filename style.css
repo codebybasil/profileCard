@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-section {
+    margin-bottom: 25px;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4a6fa5;
+    margin-bottom: 15px;
+}
+
+.name-profession h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.name-profession h2 {
+    font-size: 18px;
+    margin: 5px 0 0;
+    color: #666;
+    font-weight: normal;
+}
+
+.description {
+    margin: 20px 0;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.description p {
+    color: #555;
+    line-height: 1.5;
+    font-size: 15px;
+    margin: 0;
+}
+
+.skills-section {
+    margin: 25px 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #f5f7fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #4a6fa5;
+    transition: all 0.3s ease;
+}
+
+.skills span:hover {
+    background-color: #4a6fa5;
+    color: white;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.connect-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.connect-section h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
